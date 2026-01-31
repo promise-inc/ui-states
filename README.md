@@ -160,6 +160,13 @@ Cache is stored in `sessionStorage` and auto-invalidates when:
 4. The **Skeleton Renderer** renders the tree as `div` elements with Tailwind classes (`animate-pulse`, `bg-neutral-200/60`)
 5. When loading ends, the skeleton is removed and real children are shown
 
+## Also by Promise Inc.
+
+| Package | Description |
+|---------|-------------|
+| [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Simple logger with automatic context (file + line). Zero dependencies |
+| [`@promise-inc/ai-guard`](https://www.npmjs.com/package/@promise-inc/ai-guard) | Detect AI-generated code patterns before commit/push. Not a linter — a guard |
+
 ## License
 
 MIT
