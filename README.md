@@ -3,11 +3,11 @@
 Auto-generated skeleton loading states from real DOM — zero config React component.
 
 <p align="center">
-  <img src="assets/usage.svg" alt="UI States usage — code example" width="680" />
+  <img src="https://raw.githubusercontent.com/promise-inc/ui-states/main/assets/usage.svg" alt="UI States usage — code example" width="680" />
 </p>
 
 <p align="center">
-  <img src="assets/demo.svg" alt="UI States demo — component to skeleton" width="680" />
+  <img src="https://raw.githubusercontent.com/promise-inc/ui-states/main/assets/demo.svg" alt="UI States demo — component to skeleton" width="680" />
 </p>
 
 ## Features
