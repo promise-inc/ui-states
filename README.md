@@ -1,4 +1,4 @@
-# @promisejs/ui-states
+# @promise-inc/ui-states
 
 Auto-generated skeleton loading states from real DOM — zero config React component.
 
@@ -16,7 +16,7 @@ Auto-generated skeleton loading states from real DOM — zero config React compo
 ## Install
 
 ```bash
-npm install @promisejs/ui-states
+npm install @promise-inc/ui-states
 ```
 
 **Peer dependencies**: `react >= 18`, `react-dom >= 18`
@@ -27,14 +27,14 @@ npm install @promisejs/ui-states
 // tailwind.config.js
 content: [
   // ...your paths
-  './node_modules/@promisejs/ui-states/dist/**/*.{js,cjs}',
+  './node_modules/@promise-inc/ui-states/dist/**/*.{js,cjs}',
 ]
 ```
 
 ## Quick Start
 
 ```tsx
-import { UIStates } from '@promisejs/ui-states';
+import { UIStates } from '@promise-inc/ui-states';
 
 function ProductsPage() {
   const [products, setProducts] = useState(null);
@@ -59,7 +59,7 @@ function ProductsPage() {
 ## Usage with TanStack Query
 
 ```tsx
-import { UIStates } from '@promisejs/ui-states';
+import { UIStates } from '@promise-inc/ui-states';
 import { useQuery } from '@tanstack/react-query';
 
 function ProductsPage() {
