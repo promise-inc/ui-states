@@ -1,6 +1,6 @@
 {
   "name": "@promise-inc/ui-states",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Auto-generated skeleton loading states from real DOM — zero config React component",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -42,14 +42,27 @@
     "react",
     "skeleton",
     "loading",
+    "loading-state",
     "ui-states",
     "auto-skeleton",
-    "loading-state"
+    "tanstack-query",
+    "dom",
+    "accessibility",
+    "dark-mode",
+    "tailwind",
+    "devtools",
+    "developer-tools",
+    "promise-inc",
+    "open-source"
   ],
+  "homepage": "https://promise.codes/open-source/ui-states",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/promise-inc/ui-states"
+    "url": "git+https://github.com/promise-inc/ui-states.git"
+  },
+  "bugs": {
+    "url": "https://github.com/promise-inc/ui-states/issues"
   },
   "sideEffects": false
 }

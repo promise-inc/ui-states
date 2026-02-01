@@ -10,6 +10,17 @@ Auto-generated skeleton loading states from real DOM — zero config React compo
   <img src="https://raw.githubusercontent.com/promise-inc/ui-states/main/assets/demo.svg" alt="UI States demo — component to skeleton" width="680" />
 </p>
 
+## Why?
+
+Building skeleton loading states is tedious and fragile:
+
+- You have to manually create skeleton components that mirror real layouts
+- Every UI change means updating skeletons too
+- Most skeleton libraries require explicit configuration per component
+- Inconsistent loading states across the app
+
+`ui-states` generates **accurate skeletons automatically** from your real DOM — zero manual work.
+
 ## Features
 
 - **Auto-skeleton**: Generates skeleton loading states based on your actual component DOM structure
@@ -160,17 +171,28 @@ Cache is stored in `sessionStorage` and auto-invalidates when:
 4. The **Skeleton Renderer** renders the tree as `div` elements with Tailwind classes (`animate-pulse`, `bg-neutral-200/60`)
 5. When loading ends, the skeleton is removed and real children are shown
 
+## How to report bugs
+
+To report a bug, please first read our guide on [opening issues](https://github.com/promise-inc/ui-states/issues).
+
+## How to contribute code
+
+To open a pull request, please first read our guide on [opening pull requests](https://github.com/promise-inc/ui-states/pulls), which outlines our process for RFCs and pull requests.
+
 ## Also by Promise Inc.
 
 | Package | Description |
 |---------|-------------|
-| [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Simple logger with automatic context (file + line). Zero dependencies |
-| [`@promise-inc/ai-guard`](https://www.npmjs.com/package/@promise-inc/ai-guard) | Detect AI-generated code patterns before commit/push. Not a linter — a guard |
-
-## License
-
-MIT
+| [`@promise-inc/ai-guard`](https://github.com/promise-inc/ai-guard) | Detect AI-generated code patterns |
+| [`@promise-inc/ps-guard`](https://github.com/promise-inc/ps-guard) | Lighthouse-based performance guard |
+| [`@promise-inc/fs-guard`](https://github.com/promise-inc/fs-guard) | Validate project folder and file structure |
+| [`@promise-inc/devlog`](https://github.com/promise-inc/devlog) | Logger with automatic context (file + line) |
+| [`@promise-inc/dev-reel`](https://github.com/promise-inc/dev-reel) | Animated SVG previews for READMEs |
 
 ---
 
 Developed by [Promise Inc.](https://promise.codes)
+
+## License
+
+MIT © [Promise Inc.](https://promise.codes)
