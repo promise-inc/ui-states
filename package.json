@@ -1,6 +1,6 @@
 {
   "name": "@promise-inc/ui-states",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Auto-generated skeleton loading states from real DOM — zero config React component",
   "type": "module",
   "main": "./dist/index.cjs",
